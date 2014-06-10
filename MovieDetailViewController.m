@@ -34,22 +34,38 @@
     [self.posterView setImage:self.preloadImage];
     [Utils loadImageUrl:self.movie.posterUrl inImageView:self.posterView withAnimation:NO];
     
-    UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,self.view.frame.size.height)];
+    NSInteger offset = 350;
+    UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, offset, 320, self.view.frame.size.height)];
     
     contentView.backgroundColor = [UIColor blackColor];
     contentView.alpha = 0.75;
     [self.scrollView addSubview:contentView];
     
-    UILabel *synopsisLabel =[[UILabel alloc] initWithFrame:CGRectMake(10, 10, 300, 20)];
-    synopsisLabel.text = self.movie.synopsis;
+    UILabel *synopsisLabel =[[UILabel alloc] initWithFrame:CGRectMake(15, 15, 290, 20)];
+
+    NSString *html = [NSString stringWithFormat:@"\
+                      <span class=\"title\">%@ (%i)</span><br> \
+                      <span class=\"scores\">Critics Score: %i, Audience Score: %i</span><br> \
+                      <span class=\"mppa\">%@</span><br><br> \
+                      <span class=\"synopsis-detail\">%@</span>",
+                      self.movie.title,
+                      self.movie.year,
+                      self.movie.criticsScore,
+                      self.movie.audienceScore,
+                      self.movie.mpaaRating,
+                      self.movie.synopsis];
+    NSString *styledHtml = [Utils styledHTMLwithHTML:html];
+    NSAttributedString *attributedText = [Utils attributedStringWithHTML:styledHtml];
+    synopsisLabel.attributedText = attributedText;
+    
     synopsisLabel.numberOfLines = 0;
     synopsisLabel.textColor = [UIColor whiteColor];
     [synopsisLabel sizeToFit];
     
     [contentView addSubview:synopsisLabel];
     
-    float contentHeight = self.view.frame.size.height - self.navigationController.toolbar.frame.size.height - self.navigationController.navigationBar.frame.size.height;
-    [self.scrollView setContentSize: CGSizeMake(320, contentHeight)];
+    float scrollHeight = offset + contentView.frame.size.height - self.navigationController.toolbar.frame.size.height;
+    [self.scrollView setContentSize: CGSizeMake(320, scrollHeight)];
     
     [self createToolbar];
 }

@@ -13,22 +13,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // set up caching - 4mb memory, 20mb of disk
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024
+                                                         diskCapacity:20 * 1024 * 1024
+                                                             diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    MoviesViewController *moviesViewController = [[MoviesViewController alloc] init];
+    UIColor *yellow = [UIColor colorWithRed:241.0f/255.0f green:196.0f/255.0f blue:15.0f/255.0f alpha:1];
     
-    UINavigationController *navigationController = [[UINavigationController alloc]
-                                                    initWithRootViewController:moviesViewController];
-    navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
-    navigationController.navigationBar.barTintColor = [UIColor blackColor];
-    [navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+    [[UINavigationBar appearance] setTintColor:yellow];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:yellow, NSForegroundColorAttributeName, nil]];
+    [[UINavigationBar appearance] setBarStyle:UIStatusBarStyleLightContent];
+
+    MoviesViewController *moviesViewController = [[MoviesViewController alloc] initWithMode:movieView];
+    UINavigationController *moviesNavController = [[UINavigationController alloc] initWithRootViewController:moviesViewController];
+    moviesNavController.tabBarItem.title = @"Movies";
+    moviesNavController.tabBarItem.image = [UIImage imageNamed:@"MovieIcon"];
+
+    MoviesViewController *dvdViewController = [[MoviesViewController alloc] initWithMode:dvdView];
+    UINavigationController *dvdNavController = [[UINavigationController alloc] initWithRootViewController:dvdViewController];
+    dvdNavController.tabBarItem.title = @"DVDs";
+    dvdNavController.tabBarItem.image = [UIImage imageNamed:@"DVDIcon"];
     
-    navigationController.view.tintColor =  [UIColor whiteColor];
-    navigationController.toolbar.barTintColor = [UIColor blackColor];
-    navigationController.toolbarHidden = NO;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[moviesNavController, dvdNavController];
+
+    tabBarController.tabBar.tintColor = yellow;
+    tabBarController.tabBar.barTintColor = [UIColor blackColor];
+    self.window.rootViewController = tabBarController;
+    self.window.backgroundColor = [UIColor blackColor];
     
-    self.window.rootViewController = navigationController;
-    
-    self.window.backgroundColor = [UIColor blueColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

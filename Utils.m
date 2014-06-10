@@ -39,15 +39,30 @@
         body { \
             font-family: 'HelveticaNeue'; \
         } \
+        span.title { \
+            font-size: 17px; \
+            font-weight: bold; \
+        } \
         span.synopsis { \
             font-size: 12px; \
             color: #ccc; \
         } \
+        span.scores { \
+            font-size: 14px; \
+            line-height: 20px; \
+            color: #ccc; \
+        } \
+        span.synopsis-detail { \
+            font-size: 14px; \
+            line-height: 20px; \
+            color: #ccc; \
+        } \
         span.mppa { \
-            color: #cc0000; \
+            color: #fff; \
             font-size: 11px; \
             font-weight: bold; \
             margin-right: 5px; \
+            border: 1px solid #fff; \
         } \
     </style>";
     

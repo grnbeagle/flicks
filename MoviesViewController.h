@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+typedef enum {
+    movieView,
+    dvdView,
+    searchView
+} ViewMode;
+
+@interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate>
+{
+    ViewMode mode;
+}
 
 @property (nonatomic, strong) NSString *listType;
 
+-(id)initWithMode:(ViewMode)aMode;
 @end
