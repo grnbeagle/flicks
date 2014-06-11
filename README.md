@@ -33,5 +33,6 @@ Credits
 * [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * [MBProgressHUD](https://github.com/matej/MBProgressHUD) for loading indicator
-* Yellow/Dark gray theme is a tribute to [Vdio](http://www.vdio.com/news/).
+* Icons from [IconFinder](https://www.iconfinder.com/)
+* Yellow/dark gray theme is a tribute to [Vdio](http://www.vdio.com/news/).
 
