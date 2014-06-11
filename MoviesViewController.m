@@ -14,18 +14,20 @@
 #import "Utils.h"
 
 @interface MoviesViewController ()
-
+{
+    NSString *screenTitle;
+    NSString *apiUrl;
+    UIRefreshControl *refreshControl;
+    BOOL isSearch;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *movies;
 @property (weak, nonatomic) IBOutlet UIView *announcementView;
-//@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSMutableArray *searchResult;
 @end
 
 @implementation MoviesViewController
-
-NSString *screenTitle;
-NSString *apiUrl;
 
 - (id)initWithMode:(ViewMode)aMode {
     mode = aMode;
@@ -38,9 +40,6 @@ NSString *apiUrl;
         case dvdView:
             screenTitle = @"DVD";
             apiUrl = @"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?apikey=dagqdghwaq3e3mxyrp7kmmj5&limit=20&country=us";
-            break;
-        case searchView:
-            screenTitle = @"Search";
             break;
     }
 
@@ -65,29 +64,18 @@ NSString *apiUrl;
     self.tableView.rowHeight = 115;
     self.announcementView.hidden = YES;
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
-    
     self.tableView.backgroundColor = [UIColor blackColor];
+
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
 
     [self fetchData];
     
-    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    refreshControl = [[UIRefreshControl alloc] init];
     [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
     [self.tableView addSubview:refreshControl];
-    
-//    UISearchBar *searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
-//    self.tableView.tableHeaderView = searchBar;
-//    searchBar.barTintColor = [UIColor whiteColor];
-//
-//    searchBar.delegate = self;
-//    [self.view addSubview:searchBar];
-//    
-//    UISearchDisplayController *searchController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
-//    searchController.searchResultsDataSource = self;
-//    searchController.searchResultsDelegate   = self;
-//    searchController.delegate                = self;
 
+    self.searchBar.delegate = self;
     
     [self.tableView registerNib:[UINib nibWithNibName:@"MovieCell" bundle:nil] forCellReuseIdentifier:@"MovieCell"];
 }
@@ -99,7 +87,7 @@ NSString *apiUrl;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if (self.tableView == self.searchDisplayController.searchResultsTableView) {
+    if (isSearch) {
         return self.searchResult.count;
     } else {
         return self.movies.count;        
@@ -112,8 +100,10 @@ NSString *apiUrl;
         movieCell = [[MovieCell alloc] init];
     }
     Movie *movie;
-    if (self.tableView == self.searchDisplayController.searchResultsTableView) {
-        movie = self.searchResult[indexPath.row];
+    if (isSearch) {
+        if (self.searchResult.count > indexPath.row) {
+            movie = self.searchResult[indexPath.row];
+        }
     } else {
         movie = self.movies[indexPath.row];
     }
@@ -129,27 +119,39 @@ NSString *apiUrl;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.searchBar resignFirstResponder];
+
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     MovieCell *movieCell = (MovieCell *)[tableView cellForRowAtIndexPath:indexPath];
     
     MovieDetailViewController *movieDetailViewController = [[MovieDetailViewController alloc] init];
-    movieDetailViewController.movie = self.movies[indexPath.row];
+    if (isSearch) {
+        movieDetailViewController.movie = self.searchResult[indexPath.row];
+    } else {
+        movieDetailViewController.movie = self.movies[indexPath.row];
+    }
     movieDetailViewController.preloadImage = [movieCell.posterView image];
     [self.navigationController pushViewController:movieDetailViewController animated:YES];
 }
 
-//- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope {
-//    [self.searchResult removeAllObjects];
-//    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"title contains[c] %@", searchText];
-//    
-//    self.searchResult = [NSMutableArray arrayWithArray: [self.movies filteredArrayUsingPredicate:resultPredicate]];
-//    NSLog(@"count: %i", self.searchResult.count);
-//}
-//
-//-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString {
-//    [self filterContentForSearchText:searchString scope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
-//    return YES;
-//}
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+
+    if([searchText isEqualToString:@""] || searchText==nil) {
+        isSearch = NO;
+        [self.tableView reloadData];
+        return;
+    }
+    isSearch = YES;
+    [self.searchResult removeAllObjects];
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"title contains[c] %@", searchText];
+    
+    self.searchResult = [NSMutableArray arrayWithArray: [self.movies filteredArrayUsingPredicate:resultPredicate]];
+    [self.tableView reloadData];
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [self.searchBar resignFirstResponder];
+}
 
 - (void)fetchData {
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
@@ -158,6 +160,8 @@ NSString *apiUrl;
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError != nil) {
             self.announcementView.hidden = NO;
+            self.searchBar.hidden = YES;
+            [MBProgressHUD hideHUDForView:self.view animated:YES];
         } else {
             id object = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             self.movies = [Movie moviesWithArray:object[@"movies"]];

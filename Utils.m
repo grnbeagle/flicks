@@ -33,7 +33,6 @@
      failure:nil];
 }
 
-
 + (NSString *)styledHTMLwithHTML:(NSString *)HTML {
     NSString *style = @"<meta charset=\"UTF-8\"><style> \
         body { \

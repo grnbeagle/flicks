@@ -10,11 +10,10 @@
 
 typedef enum {
     movieView,
-    dvdView,
-    searchView
+    dvdView
 } ViewMode;
 
-@interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate>
+@interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 {
     ViewMode mode;
 }
