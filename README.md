@@ -2,14 +2,9 @@ flicks
 ======
 Rotten Tomates app
 
-This is a iOS 7 app displaying box office movies and top rental DVDs. It is created as part of [CodePath](http://codepath.com/) course work. (June 10, 2014)
+This is an iOS 7 demo app displaying box office movies and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON). It is created as part of [CodePath](http://codepath.com/) course work. (June 10, 2014)
 
-Credits
----------
-* [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
-* [MBProgressHUD](https://github.com/matej/MBProgressHUD) for loading indicator
-* Yellow/Dark gray theme is a tribute to [Vdio](http://www.vdio.com/news/).
+Time spent: approximately 15 hours
 
 Features
 ---------
@@ -28,3 +23,15 @@ Features
 - [x] Customize the navigation bar.
 - [x] Add a tab bar for Box Office and DVD.
 - [x] Add a search bar: pretty simple implementation of searching against the existing table view data.
+
+Walkthrough
+------------
+![Video Walkthrough](flicks-walkthrough.gif)
+
+Credits
+---------
+* [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+* [MBProgressHUD](https://github.com/matej/MBProgressHUD) for loading indicator
+* Yellow/Dark gray theme is a tribute to [Vdio](http://www.vdio.com/news/).
+
