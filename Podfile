@@ -9,6 +9,6 @@ target "flicks" do
 end
 
 target "flicksTests" do
-
+  pod 'Kiwi', '~> 2.3.0'
 end
 
