@@ -7,6 +7,8 @@
 //
 
 #import "Kiwi+Helpers.h"
+#import "OHHTTPStubs.h"
+
 
 @implementation Fixtures : NSObject
 
@@ -21,6 +23,12 @@
     NSAssert(!error, @"Unable to parse the json file");
 
     return jsonDictionary;
+}
+
++ (OHHTTPStubsResponse *)responseForPath:(NSString *)path statusCode:(int)code {
+    path = [path stringByAppendingString:[NSString stringWithFormat:@"-%d", code]];
+    NSString *filePath = [[NSBundle bundleForClass:self.class] pathForResource:path ofType:@"json"];
+    return [OHHTTPStubsResponse responseWithFileAtPath:filePath statusCode:code headers:@{@"content-type": @"application/json"}];
 }
 
 @end

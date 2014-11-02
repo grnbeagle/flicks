@@ -8,8 +8,12 @@
 
 @import Foundation;
 
+@class OHHTTPStubsResponse;
+
+
 @interface Fixtures : NSObject
 
 + (NSDictionary *)fixtureNamed:(NSString *)path;
++ (OHHTTPStubsResponse *)responseForPath:(NSString *)path statusCode:(int)code;
 
 @end

@@ -32,6 +32,8 @@
 		B957A4F919FDF9A4005B5355 /* top_rentals-200.json in Resources */ = {isa = PBXBuildFile; fileRef = B957A4F819FDF9A4005B5355 /* top_rentals-200.json */; };
 		B957A4FB19FDFA24005B5355 /* Godzilla.json in Resources */ = {isa = PBXBuildFile; fileRef = B957A4FA19FDFA24005B5355 /* Godzilla.json */; };
 		B957A4FF19FDFB8E005B5355 /* Kiwi+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */; };
+		B957A50419FE0755005B5355 /* MoviesViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */; };
+		B957A50619FF22A4005B5355 /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A50519FF22A4005B5355 /* ExampleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		B957A4FA19FDFA24005B5355 /* Godzilla.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Godzilla.json; sourceTree = "<group>"; };
 		B957A4FD19FDFB8E005B5355 /* Kiwi+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kiwi+Helpers.h"; sourceTree = "<group>"; };
 		B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Kiwi+Helpers.m"; sourceTree = "<group>"; };
+		B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewControllerSpec.m; sourceTree = "<group>"; };
+		B957A50519FF22A4005B5355 /* ExampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSpec.m; sourceTree = "<group>"; };
 		BDB2451BBDF1540CB2DC8644 /* Pods-flicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-flicks/Pods-flicks.release.xcconfig"; sourceTree = "<group>"; };
 		E1F15D5CC4251FCAB220BF1D /* Pods-flicksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-flicksTests/Pods-flicksTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5AAC12FF225476A9C356093 /* libPods-flicks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flicks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,9 +189,11 @@
 			isa = PBXGroup;
 			children = (
 				B957A4F319FDF59E005B5355 /* Models */,
+				B957A50019FE0707005B5355 /* View Controllers */,
 				B957A4FC19FDFB71005B5355 /* Helpers */,
 				B957A4F619FDF93C005B5355 /* Fixtures */,
 				53A1644E1945973200FD7451 /* Supporting Files */,
+				B957A50519FF22A4005B5355 /* ExampleSpec.m */,
 			);
 			path = flicksTests;
 			sourceTree = "<group>";
@@ -267,6 +273,15 @@
 				B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B957A50019FE0707005B5355 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */,
+			);
+			name = "View Controllers";
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +465,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B957A50419FE0755005B5355 /* MoviesViewControllerSpec.m in Sources */,
+				B957A50619FF22A4005B5355 /* ExampleSpec.m in Sources */,
 				B957A4F519FDF71B005B5355 /* MovieSpec.m in Sources */,
 				B957A4FF19FDFB8E005B5355 /* Kiwi+Helpers.m in Sources */,
 			);

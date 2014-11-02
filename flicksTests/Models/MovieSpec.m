@@ -32,19 +32,20 @@ describe(@"Movie", ^{
 
         beforeEach(^{
             moviesJSON = @[[Fixtures fixtureNamed:@"Godzilla"], [Fixtures fixtureNamed:@"Godzilla"], [Fixtures fixtureNamed:@"Godzilla"]];
-
-            movies = [Movie moviesWithArray:moviesJSON];
         });
 
-        it(@"should create a movie for each entry in the array", ^{
+        it(@"should create a movie for every entry in the array", ^{
+            movies = [Movie moviesWithArray:moviesJSON];
             [[theValue(movies.count) should] equal:theValue(3)];
         });
 
-        it(@"should create property populated movies", ^{
-            Movie *movie = movies[0];
+        it(@"should create the movies with the correct information", ^{
+            movies = [Movie moviesWithArray:moviesJSON];
 
-            [[movie.title should] equal:@"Godzilla"];
+            Movie *movie0 = movies[0];
+            [[movie0.title should] equal:@"Godzilla"];
         });
+
     });
 });
 

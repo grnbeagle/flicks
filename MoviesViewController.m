@@ -16,18 +16,19 @@
 @interface MoviesViewController ()
 {
     NSString *screenTitle;
-    NSString *apiUrl;
     UIRefreshControl *refreshControl;
     BOOL isSearch;
 }
+@property (strong, nonatomic) NSString *apiUrl;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *movies;
 @property (weak, nonatomic) IBOutlet UIView *announcementView;
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSMutableArray *searchResult;
 @end
 
 @implementation MoviesViewController
+
+#pragma mark - Initializers
 
 - (id)initWithMode:(ViewMode)aMode {
     mode = aMode;
@@ -35,11 +36,11 @@
     switch (aMode) {
         case movieView:
             screenTitle = @"Movies";
-            apiUrl = @"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=g9au4hv6khv6wzvzgt55gpqs&limit=20&country=us";
+            self.apiUrl = @"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=g9au4hv6khv6wzvzgt55gpqs&limit=20&country=us";
             break;
         case dvdView:
             screenTitle = @"DVD";
-            apiUrl = @"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?apikey=dagqdghwaq3e3mxyrp7kmmj5&limit=20&country=us";
+            self.apiUrl = @"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?apikey=dagqdghwaq3e3mxyrp7kmmj5&limit=20&country=us";
             break;
     }
 
@@ -57,6 +58,8 @@
     return self;
 }
 
+#pragma mark - Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -70,7 +73,7 @@
     self.tableView.delegate = self;
 
     [self fetchData];
-    
+
     refreshControl = [[UIRefreshControl alloc] init];
     [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
     [self.tableView addSubview:refreshControl];
@@ -85,6 +88,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (isSearch) {
@@ -118,6 +123,8 @@
     return movieCell;
 }
 
+#pragma mark - UITableViewDelegate
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.searchBar resignFirstResponder];
 
@@ -133,6 +140,8 @@
     movieDetailViewController.preloadImage = [movieCell.posterView image];
     [self.navigationController pushViewController:movieDetailViewController animated:YES];
 }
+
+#pragma mark - UISearchBarDelegate
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
 
@@ -153,10 +162,12 @@
     [self.searchBar resignFirstResponder];
 }
 
+#pragma mark - Private
+
 - (void)fetchData {
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     // Load from cache, else go to source
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:apiUrl] cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:5];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.apiUrl] cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:5];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError != nil) {
             self.announcementView.hidden = NO;
