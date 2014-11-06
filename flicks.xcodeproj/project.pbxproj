@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037E575CEF996F83D46D2695 /* libPods-flicksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E6FD228B23A9391CC11EF9 /* libPods-flicksTests.a */; };
 		39B93807207444D58F8C9DFA /* libPods-flicks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AAC12FF225476A9C356093 /* libPods-flicks.a */; };
 		53A1642F1945973200FD7451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1642E1945973200FD7451 /* Foundation.framework */; };
 		53A164311945973200FD7451 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A164301945973200FD7451 /* CoreGraphics.framework */; };
@@ -19,7 +20,6 @@
 		53A164491945973200FD7451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1642E1945973200FD7451 /* Foundation.framework */; };
 		53A1644A1945973200FD7451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A164321945973200FD7451 /* UIKit.framework */; };
 		53A164521945973200FD7451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A164501945973200FD7451 /* InfoPlist.strings */; };
-		53A164541945973200FD7451 /* flicksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A164531945973200FD7451 /* flicksTests.m */; };
 		53F99C1119459A0200BEFED6 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F99C1019459A0200BEFED6 /* Movie.m */; };
 		53F99C1419459A0E00BEFED6 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F99C1319459A0E00BEFED6 /* Utils.m */; };
 		53F99C1819459A2400BEFED6 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F99C1619459A2400BEFED6 /* MoviesViewController.m */; };
@@ -28,6 +28,12 @@
 		53F99C1E19459B5A00BEFED6 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F99C1C19459B5A00BEFED6 /* MovieCell.xib */; };
 		53F99C2219459BFB00BEFED6 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F99C2019459BFB00BEFED6 /* MovieDetailViewController.m */; };
 		53F99C2319459BFB00BEFED6 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F99C2119459BFB00BEFED6 /* MovieDetailViewController.xib */; };
+		B957A4F519FDF71B005B5355 /* MovieSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A4F419FDF71B005B5355 /* MovieSpec.m */; };
+		B957A4F919FDF9A4005B5355 /* top_rentals-200.json in Resources */ = {isa = PBXBuildFile; fileRef = B957A4F819FDF9A4005B5355 /* top_rentals-200.json */; };
+		B957A4FB19FDFA24005B5355 /* Godzilla.json in Resources */ = {isa = PBXBuildFile; fileRef = B957A4FA19FDFA24005B5355 /* Godzilla.json */; };
+		B957A4FF19FDFB8E005B5355 /* Kiwi+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */; };
+		B957A50419FE0755005B5355 /* MoviesViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */; };
+		B957A50619FF22A4005B5355 /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B957A50519FF22A4005B5355 /* ExampleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +62,6 @@
 		53A164471945973200FD7451 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		53A1644F1945973200FD7451 /* flicksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flicksTests-Info.plist"; sourceTree = "<group>"; };
 		53A164511945973200FD7451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		53A164531945973200FD7451 /* flicksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flicksTests.m; sourceTree = "<group>"; };
 		53F99C0F19459A0200BEFED6 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		53F99C1019459A0200BEFED6 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		53F99C1219459A0E00BEFED6 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
@@ -70,7 +75,18 @@
 		53F99C1F19459BFB00BEFED6 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
 		53F99C2019459BFB00BEFED6 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		53F99C2119459BFB00BEFED6 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
-		61417A88384B44AF87C8F7A2 /* Pods-flicks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicks.xcconfig"; path = "Pods/Pods-flicks.xcconfig"; sourceTree = "<group>"; };
+		8606B5CD38AABBFD8D891FEA /* Pods-flicks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flicks/Pods-flicks.debug.xcconfig"; sourceTree = "<group>"; };
+		8D3B1AFE7995940AB410242F /* Pods-flicksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flicksTests/Pods-flicksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E6FD228B23A9391CC11EF9 /* libPods-flicksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flicksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B957A4F419FDF71B005B5355 /* MovieSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieSpec.m; sourceTree = "<group>"; };
+		B957A4F819FDF9A4005B5355 /* top_rentals-200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "top_rentals-200.json"; sourceTree = "<group>"; };
+		B957A4FA19FDFA24005B5355 /* Godzilla.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Godzilla.json; sourceTree = "<group>"; };
+		B957A4FD19FDFB8E005B5355 /* Kiwi+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kiwi+Helpers.h"; sourceTree = "<group>"; };
+		B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Kiwi+Helpers.m"; sourceTree = "<group>"; };
+		B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewControllerSpec.m; sourceTree = "<group>"; };
+		B957A50519FF22A4005B5355 /* ExampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSpec.m; sourceTree = "<group>"; };
+		BDB2451BBDF1540CB2DC8644 /* Pods-flicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-flicks/Pods-flicks.release.xcconfig"; sourceTree = "<group>"; };
+		E1F15D5CC4251FCAB220BF1D /* Pods-flicksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flicksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-flicksTests/Pods-flicksTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5AAC12FF225476A9C356093 /* libPods-flicks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flicks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,12 +109,24 @@
 				53A164481945973200FD7451 /* XCTest.framework in Frameworks */,
 				53A1644A1945973200FD7451 /* UIKit.framework in Frameworks */,
 				53A164491945973200FD7451 /* Foundation.framework in Frameworks */,
+				037E575CEF996F83D46D2695 /* libPods-flicksTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4616D2B75D3CAA10A06FF8C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8606B5CD38AABBFD8D891FEA /* Pods-flicks.debug.xcconfig */,
+				BDB2451BBDF1540CB2DC8644 /* Pods-flicks.release.xcconfig */,
+				8D3B1AFE7995940AB410242F /* Pods-flicksTests.debug.xcconfig */,
+				E1F15D5CC4251FCAB220BF1D /* Pods-flicksTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53A164221945973200FD7451 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +137,7 @@
 				53A1644D1945973200FD7451 /* flicksTests */,
 				53A1642D1945973200FD7451 /* Frameworks */,
 				53A1642C1945973200FD7451 /* Products */,
-				61417A88384B44AF87C8F7A2 /* Pods-flicks.xcconfig */,
+				4616D2B75D3CAA10A06FF8C8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +158,7 @@
 				53A164321945973200FD7451 /* UIKit.framework */,
 				53A164471945973200FD7451 /* XCTest.framework */,
 				E5AAC12FF225476A9C356093 /* libPods-flicks.a */,
+				A6E6FD228B23A9391CC11EF9 /* libPods-flicksTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,8 +188,12 @@
 		53A1644D1945973200FD7451 /* flicksTests */ = {
 			isa = PBXGroup;
 			children = (
-				53A164531945973200FD7451 /* flicksTests.m */,
+				B957A4F319FDF59E005B5355 /* Models */,
+				B957A50019FE0707005B5355 /* View Controllers */,
+				B957A4FC19FDFB71005B5355 /* Helpers */,
+				B957A4F619FDF93C005B5355 /* Fixtures */,
 				53A1644E1945973200FD7451 /* Supporting Files */,
+				B957A50519FF22A4005B5355 /* ExampleSpec.m */,
 			);
 			path = flicksTests;
 			sourceTree = "<group>";
@@ -208,6 +241,49 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		B957A4F319FDF59E005B5355 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B957A4F419FDF71B005B5355 /* MovieSpec.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B957A4F619FDF93C005B5355 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				B957A4F719FDF96A005B5355 /* Responses */,
+				B957A4FA19FDFA24005B5355 /* Godzilla.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		B957A4F719FDF96A005B5355 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B957A4F819FDF9A4005B5355 /* top_rentals-200.json */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		B957A4FC19FDFB71005B5355 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B957A4FD19FDFB8E005B5355 /* Kiwi+Helpers.h */,
+				B957A4FE19FDFB8E005B5355 /* Kiwi+Helpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B957A50019FE0707005B5355 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B957A50319FE0755005B5355 /* MoviesViewControllerSpec.m */,
+			);
+			name = "View Controllers";
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53A1645A1945973200FD7451 /* Build configuration list for PBXNativeTarget "flicksTests" */;
 			buildPhases = (
+				F07F192FCBB902A9FF16F746 /* Check Pods Manifest.lock */,
 				53A164421945973200FD7451 /* Sources */,
 				53A164431945973200FD7451 /* Frameworks */,
 				53A164441945973200FD7451 /* Resources */,
+				8AD096F1DA1E0B6E8418400A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,7 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B957A4FB19FDFA24005B5355 /* Godzilla.json in Resources */,
 				53A164521945973200FD7451 /* InfoPlist.strings in Resources */,
+				B957A4F919FDF9A4005B5355 /* top_rentals-200.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +399,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		8AD096F1DA1E0B6E8418400A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flicksTests/Pods-flicksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C9DF242D6F6947499CE834E2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +426,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-flicks-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flicks/Pods-flicks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07F192FCBB902A9FF16F746 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,7 +465,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A164541945973200FD7451 /* flicksTests.m in Sources */,
+				B957A50419FE0755005B5355 /* MoviesViewControllerSpec.m in Sources */,
+				B957A50619FF22A4005B5355 /* ExampleSpec.m in Sources */,
+				B957A4F519FDF71B005B5355 /* MovieSpec.m in Sources */,
+				B957A4FF19FDFB8E005B5355 /* Kiwi+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +574,7 @@
 		};
 		53A164581945973200FD7451 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61417A88384B44AF87C8F7A2 /* Pods-flicks.xcconfig */;
+			baseConfigurationReference = 8606B5CD38AABBFD8D891FEA /* Pods-flicks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,7 +588,7 @@
 		};
 		53A164591945973200FD7451 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61417A88384B44AF87C8F7A2 /* Pods-flicks.xcconfig */;
+			baseConfigurationReference = BDB2451BBDF1540CB2DC8644 /* Pods-flicks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -489,6 +602,7 @@
 		};
 		53A1645B1945973200FD7451 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3B1AFE7995940AB410242F /* Pods-flicksTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flicks.app/flicks";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -502,6 +616,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "FIXTURES_DIRECTORY=\"\\\"$SRCROOT/flicksTests/Fixtures\\\"\"";
 				INFOPLIST_FILE = "flicksTests/flicksTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -511,6 +626,7 @@
 		};
 		53A1645C1945973200FD7451 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F15D5CC4251FCAB220BF1D /* Pods-flicksTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flicks.app/flicks";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -520,6 +636,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flicks/flicks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "FIXTURES_DIRECTORY=\"\\\"$SRCROOT/flicksTests/Fixtures\\\"\"";
 				INFOPLIST_FILE = "flicksTests/flicksTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

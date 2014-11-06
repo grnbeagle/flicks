@@ -1,0 +1,56 @@
+{
+    "id": "771225175",
+    "title": "Godzilla",
+    "year": 2014,
+    "mpaa_rating": "PG-13",
+    "runtime": 138,
+    "critics_consensus": "",
+    "release_dates": {
+        "theater": "2014-05-16",
+        "dvd": "2014-09-16"
+    },
+    "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 73,
+        "audience_rating": "Upright",
+        "audience_score": 68
+    },
+    "synopsis": "This is a story about a lizard wrecking stuff",
+    "posters": {
+        "thumbnail": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+        "profile": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+        "detailed": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+        "original": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg"
+    },
+    "abridged_cast": [{
+                      "name": "Aaron Taylor-Johnson",
+                      "id": "326397411",
+                      "characters": ["Ford Brody"]
+                      }, {
+                      "name": "Elizabeth Olsen",
+                      "id": "770827678",
+                      "characters": ["Elle Brody"]
+                      }, {
+                      "name": "Bryan Cranston",
+                      "id": "326392501",
+                      "characters": ["Joe Brody"]
+                      }, {
+                      "name": "David Strathairn",
+                      "id": "162654527",
+                      "characters": ["Admiral William Stenz"]
+                      }, {
+                      "name": "Ken Watanabe",
+                      "id": "335718197",
+                      "characters": ["Dr. Ishiro Seriwaza"]
+                      }],
+    "alternate_ids": {
+        "imdb": "0831387"
+    },
+    "links": {
+        "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175.json",
+        "alternate": "http://www.rottentomatoes.com/m/godzilla_2014/",
+        "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/cast.json",
+        "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/reviews.json",
+        "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/similar.json"
+    }
+}
