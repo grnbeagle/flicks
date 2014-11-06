@@ -19,6 +19,8 @@ typedef enum {
 }
 
 @property (nonatomic, strong) NSString *listType;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 -(id)initWithMode:(ViewMode)aMode;
+
 @end

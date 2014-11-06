@@ -1,0 +1,1106 @@
+{
+"movies": [{
+"id": "771308692",
+"title": "X-Men: Days of Future Past",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 131,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-23",
+"dvd": "2014-10-14"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 92,
+"audience_rating": "Upright",
+"audience_score": 93
+},
+"synopsis": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods in X-MEN: DAYS OF FUTURE PAST. The beloved characters from the original \"X-Men\" film trilogy join forces with their younger selves from the past, \"X-Men: First Class,\" in order to change a major historical event and fight in an epic battle that could save our future. (c) Fox",
+"posters": {
+"thumbnail": "http://content9.flixster.com/movie/11/18/08/11180875_tmb.jpg",
+"profile": "http://content9.flixster.com/movie/11/18/08/11180875_tmb.jpg",
+"detailed": "http://content9.flixster.com/movie/11/18/08/11180875_tmb.jpg",
+"original": "http://content9.flixster.com/movie/11/18/08/11180875_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Hugh Jackman",
+"id": "162661503",
+"characters": ["Logan/Wolverine"]
+}, {
+"name": "James McAvoy",
+"id": "162714854",
+"characters": ["Charles Xavier/Professor X"]
+}, {
+"name": "Michael Fassbender",
+"id": "364641814",
+"characters": ["Erik Lensherr/Magneto"]
+}, {
+"name": "Jennifer Lawrence",
+"id": "770800260",
+"characters": ["Mystique/Raven"]
+}, {
+"name": "Patrick Stewart",
+"id": "162664301",
+"characters": ["Charles Xavier/Professor X"]
+}],
+"alternate_ids": {
+"imdb": "1877832"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308692.json",
+"alternate": "http://www.rottentomatoes.com/m/x_men_days_of_future_past/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308692/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308692/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308692/similar.json"
+}
+}, {
+"id": "771312513",
+"title": "Captain America: The Winter Soldier",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 136,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-04-04",
+"dvd": "2014-09-09"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 89,
+"audience_rating": "Upright",
+"audience_score": 93
+},
+"synopsis": "After being deemed unfit for military service, Steve Rogers volunteers for a top secret research project that turns him into Captain America, a superhero dedicated to defending America's ideals.",
+"posters": {
+"thumbnail": "http://content8.flixster.com/movie/11/17/72/11177246_tmb.jpg",
+"profile": "http://content8.flixster.com/movie/11/17/72/11177246_tmb.jpg",
+"detailed": "http://content8.flixster.com/movie/11/17/72/11177246_tmb.jpg",
+"original": "http://content8.flixster.com/movie/11/17/72/11177246_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Emily Van Camp",
+"id": "770782108"
+}, {
+"name": "Chris Evans",
+"id": "162652784",
+"characters": ["Captain America/Steve Rogers"]
+}, {
+"name": "Samuel L. Jackson",
+"id": "162652156",
+"characters": ["Nick Fury"]
+}, {
+"name": "Scarlett Johansson",
+"id": "162652872",
+"characters": ["Natasha Romanoff/Black Widow"]
+}, {
+"name": "Anthony Mackie",
+"id": "162653786",
+"characters": ["Sam Wilson/Falcon"]
+}],
+"alternate_ids": {
+"imdb": "1843866"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771312513.json",
+"alternate": "http://www.rottentomatoes.com/m/captain_america_the_winter_soldier_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771312513/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771312513/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771312513/similar.json"
+}
+}, {
+"id": "771269858",
+"title": "Transformers: Age of Extinction",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 157,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-27",
+"dvd": "2014-09-30"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 18,
+"audience_rating": "Spilled",
+"audience_score": 53
+},
+"synopsis": "TRANSFORMERS: AGE OF EXTINCTION begins after an epic battle left a great city torn, but with the world saved. As humanity picks up the pieces, a shadowy group reveals itself in an attempt to control the direction of history...while an ancient, powerful new menace sets Earth in its crosshairs. With help from a new cast of humans (led by Mark Wahlberg), Optimus Prime and the Autobots rise to meet their most fearsome challenge yet. In an incredible adventure, they are swept up in a war of good and evil, ultimately leading to a climactic battle across the world. (C) Paramount",
+"posters": {
+"thumbnail": "http://content6.flixster.com/movie/11/18/05/11180556_tmb.jpg",
+"profile": "http://content6.flixster.com/movie/11/18/05/11180556_tmb.jpg",
+"detailed": "http://content6.flixster.com/movie/11/18/05/11180556_tmb.jpg",
+"original": "http://content6.flixster.com/movie/11/18/05/11180556_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Mark Wahlberg",
+"id": "162653181",
+"characters": ["Cade Yeager"]
+}, {
+"name": "Jack Reynor",
+"id": "771403543",
+"characters": ["Shane Dyson"]
+}, {
+"name": "Nicola Peltz",
+"id": "770833458",
+"characters": ["Tessa Yeager"]
+}, {
+"name": "Stanley Tucci",
+"id": "162661152",
+"characters": ["Joshua Joyce"]
+}, {
+"name": "Kelsey Grammer",
+"id": "162660300",
+"characters": ["Harold Attinger"]
+}],
+"alternate_ids": {
+"imdb": "2109248"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771269858.json",
+"alternate": "http://www.rottentomatoes.com/m/transformers_age_of_extinction/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771269858/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771269858/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771269858/similar.json"
+}
+}, {
+"id": "771225175",
+"title": "Godzilla",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 138,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-16",
+"dvd": "2014-09-16"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 73,
+"audience_rating": "Upright",
+"audience_score": 68
+},
+"synopsis": "In Summer 2014, the world's most revered monster is reborn as Warner Bros. Pictures and Legendary Pictures unleash the epic action adventure \"Godzilla.\" From visionary new director Gareth Edwards (\"Monsters\") comes a powerful story of human courage and reconciliation in the face of titanic forces of nature, when the awe-inspiring Godzilla rises to restore balance as humanity stands defenseless. (c) Warner Bros",
+"posters": {
+"thumbnail": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+"profile": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+"detailed": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg",
+"original": "http://content8.flixster.com/movie/11/17/95/11179578_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Aaron Taylor-Johnson",
+"id": "326397411",
+"characters": ["Ford Brody"]
+}, {
+"name": "Elizabeth Olsen",
+"id": "770827678",
+"characters": ["Elle Brody"]
+}, {
+"name": "Bryan Cranston",
+"id": "326392501",
+"characters": ["Joe Brody"]
+}, {
+"name": "David Strathairn",
+"id": "162654527",
+"characters": ["Admiral William Stenz"]
+}, {
+"name": "Ken Watanabe",
+"id": "335718197",
+"characters": ["Dr. Ishiro Seriwaza"]
+}],
+"alternate_ids": {
+"imdb": "0831387"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175.json",
+"alternate": "http://www.rottentomatoes.com/m/godzilla_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771225175/similar.json"
+}
+}, {
+"id": "771317257",
+"title": "Live Die Repeat: Edge of Tomorrow",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 113,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-06",
+"dvd": "2014-10-07"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 90,
+"audience_rating": "Upright",
+"audience_score": 91
+},
+"synopsis": "The epic action of \"Edge of Tomorrow\" unfolds in a near future in which an alien race has hit the Earth in an unrelenting assault, unbeatable by any military unit in the world. Major William Cage (Tom Cruise) is an officer who has never seen a day of combat when he is unceremoniously dropped into what amounts to a suicide mission. Killed within minutes, Cage now finds himself inexplicably thrown into a time loop-forcing him to live out the same brutal combat over and over, fighting and dying again...and again. But with each battle, Cage becomes able to engage the adversaries with increasing skill, alongside Special Forces warrior Rita Vrataski (Emily Blunt). And, as Cage and Rita take the fight to the aliens, each repeated encounter gets them one step closer to defeating the enemy.(C) Warner Bros",
+"posters": {
+"thumbnail": "http://content6.flixster.com/movie/11/18/05/11180524_tmb.jpg",
+"profile": "http://content6.flixster.com/movie/11/18/05/11180524_tmb.jpg",
+"detailed": "http://content6.flixster.com/movie/11/18/05/11180524_tmb.jpg",
+"original": "http://content6.flixster.com/movie/11/18/05/11180524_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Tom Cruise",
+"id": "162652763",
+"characters": ["Major William Cage"]
+}, {
+"name": "Emily Blunt",
+"id": "162685827",
+"characters": ["Rita Vrataski"]
+}, {
+"name": "Bill Paxton",
+"id": "162654226",
+"characters": ["Master Sergeant Farell"]
+}, {
+"name": "Jonas Armstrong",
+"id": "770796908",
+"characters": ["Skinner"]
+}, {
+"name": "Tony Way",
+"id": "770853907",
+"characters": ["Kimmel"]
+}],
+"alternate_ids": {
+"imdb": "1631867"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317257.json",
+"alternate": "http://www.rottentomatoes.com/m/live_die_repeat_edge_of_tomorrow/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317257/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317257/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317257/similar.json"
+}
+}, {
+"id": "771308254",
+"title": "Neighbors",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 97,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-09",
+"dvd": "2014-09-23"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 73,
+"audience_rating": "Upright",
+"audience_score": 67
+},
+"synopsis": "Seth Rogen, Zac Efron and Rose Byrne lead the cast of Neighbors, a comedy about a young couple suffering from arrested development who are forced to live next to a fraternity house after the birth of their newborn baby. Neighbors is directed by Nick Stoller (Forgetting Sarah Marshall, Get Him to the Greek). (c) Universal",
+"posters": {
+"thumbnail": "http://content9.flixster.com/movie/11/17/97/11179775_tmb.jpg",
+"profile": "http://content9.flixster.com/movie/11/17/97/11179775_tmb.jpg",
+"detailed": "http://content9.flixster.com/movie/11/17/97/11179775_tmb.jpg",
+"original": "http://content9.flixster.com/movie/11/17/97/11179775_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Rose Byrne",
+"id": "162699968",
+"characters": ["Kelly Radner"]
+}, {
+"name": "Zac Efron",
+"id": "171852647",
+"characters": ["Teddy Sanders"]
+}, {
+"name": "Elise Vargas",
+"id": "771489151",
+"characters": ["Stella"]
+}, {
+"name": "Dave Franco",
+"id": "770703179",
+"characters": ["Pete"]
+}, {
+"name": "Christopher Mintz-Plasse",
+"id": "770679139",
+"characters": ["Scoonie"]
+}],
+"alternate_ids": {
+"imdb": "2004420"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308254.json",
+"alternate": "http://www.rottentomatoes.com/m/neighbors_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308254/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308254/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771308254/similar.json"
+}
+}, {
+"id": "771365948",
+"title": "The Fault In Our Stars",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 125,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-06",
+"dvd": "2014-09-16"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 80,
+"audience_rating": "Upright",
+"audience_score": 87
+},
+"synopsis": "Hazel and Gus are two extraordinary teenagers who share an acerbic wit, a disdain for the conventional, and a love that sweeps them - and us - on an unforgettable journey. Their relationship is all the more miraculous, given that they met and fell in love at a cancer support group. THE FAULT IN OUR STARS, based upon the number-one bestselling novel by John Green, explores the funny, thrilling and tragic business of being alive and in love.(C) Fox",
+"posters": {
+"thumbnail": "http://content8.flixster.com/movie/11/18/03/11180370_tmb.jpg",
+"profile": "http://content8.flixster.com/movie/11/18/03/11180370_tmb.jpg",
+"detailed": "http://content8.flixster.com/movie/11/18/03/11180370_tmb.jpg",
+"original": "http://content8.flixster.com/movie/11/18/03/11180370_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Shailene Woodley",
+"id": "770676364",
+"characters": ["Hazel"]
+}, {
+"name": "Ansel Elgort",
+"id": "771409061",
+"characters": ["Gus"]
+}, {
+"name": "Lotte Verbeek",
+"id": "770830560",
+"characters": ["Lidewij"]
+}, {
+"name": "Laura Dern",
+"id": "162654251",
+"characters": ["Frannie"]
+}, {
+"name": "Willem Dafoe",
+"id": "162668400",
+"characters": ["Van Houten"]
+}],
+"alternate_ids": {
+"imdb": "2582846"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771365948.json",
+"alternate": "http://www.rottentomatoes.com/m/the_fault_in_our_stars/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771365948/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771365948/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771365948/similar.json"
+}
+}, {
+"id": "771169232",
+"title": "Mr. Peabody & Sherman",
+"year": 2014,
+"mpaa_rating": "PG",
+"runtime": 92,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-03-07",
+"dvd": "2014-10-14"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 79,
+"audience_rating": "Upright",
+"audience_score": 74
+},
+"synopsis": "Mr. Peabody, the most accomplished dog in the world, and his mischievous boy Sherman, use their time machine - the WABAC - to go on the most outrageous adventures known to man or dog. But when Sherman takes the WABAC out for a joyride to impress his friend Penny, they accidentally rip a hole in the universe, wreaking havoc on the most important events in world history. Before they forever alter the past, present and future, Mr. Peabody must come to their rescue, ultimately facing the most daunting challenge of any era: figuring out how to be a parent. Together, the time traveling trio will make their mark on history. (c) Fox",
+"posters": {
+"thumbnail": "http://content7.flixster.com/movie/11/18/06/11180673_tmb.jpg",
+"profile": "http://content7.flixster.com/movie/11/18/06/11180673_tmb.jpg",
+"detailed": "http://content7.flixster.com/movie/11/18/06/11180673_tmb.jpg",
+"original": "http://content7.flixster.com/movie/11/18/06/11180673_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Laurie Fraser",
+"id": "771157751",
+"characters": ["Marie Antoinette"]
+}, {
+"name": "Guillaume Aretos",
+"id": "771027637",
+"characters": ["Robespierre"]
+}, {
+"name": "Pat Musick",
+"id": "770699384",
+"characters": ["Teacher"]
+}, {
+"name": "Karan Brar",
+"id": "770912040",
+"characters": ["Mason"]
+}, {
+"name": "Joshua Rush",
+"id": "771431218",
+"characters": ["Carl"]
+}],
+"alternate_ids": {
+"imdb": "0864835"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771169232.json",
+"alternate": "http://www.rottentomatoes.com/m/mr_peabody_and_sherman/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771169232/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771169232/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771169232/similar.json"
+}
+}, {
+"id": "771358674",
+"title": "The Purge: Anarchy",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 104,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-07-18",
+"dvd": "2014-10-21"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 57,
+"audience_rating": "Upright",
+"audience_score": 61
+},
+"synopsis": "The New Founders of America invite you to celebrate your annual right to Purge. The Purge: Anarchy, the sequel to summer 2013's sleeper hit that opened to No. 1 at the box-office, sees the return of writer/director James DeMonaco to craft the next terrifying chapter of dutiful citizens preparing for their country's yearly 12 hours of anarchy. Returning alongside DeMonaco to produce The Purge: Anarchy are Blumhouse Productions' Jason Blum (Paranormal Activity and Insidious series), alongside Sebastien K. Lemercier (Assault on Precinct 13, Four Lovers) and Platinum Dunes partners Michael Bay (Pain & Gain, Transformers franchise), Brad Fuller (The Amityville Horror, A Nightmare on Elm Street) and Andrew Form (The Texas Chainsaw Massacre, Friday the 13th). www.blumhouse.com/film/thepurgeanarchy (c) Uniersal",
+"posters": {
+"thumbnail": "http://content7.flixster.com/movie/11/18/08/11180885_tmb.jpg",
+"profile": "http://content7.flixster.com/movie/11/18/08/11180885_tmb.jpg",
+"detailed": "http://content7.flixster.com/movie/11/18/08/11180885_tmb.jpg",
+"original": "http://content7.flixster.com/movie/11/18/08/11180885_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Frank Grillo",
+"id": "770679606",
+"characters": ["Sergeant"]
+}, {
+"name": "Kiele Sanchez",
+"id": "770719183",
+"characters": ["Liz"]
+}, {
+"name": "Cortney Palm",
+"id": "771428513"
+}, {
+"name": "Michael K. Williams",
+"id": "770685984",
+"characters": ["Carmelo"]
+}, {
+"name": "Zach Gilford",
+"id": "770681835",
+"characters": ["Shane"]
+}],
+"alternate_ids": {
+"imdb": "2975578"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358674.json",
+"alternate": "http://www.rottentomatoes.com/m/the_purge_anarchy_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358674/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358674/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358674/similar.json"
+}
+}, {
+"id": "771350283",
+"title": "A Million Ways to Die in the West",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 116,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-30",
+"dvd": "2014-10-07"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 33,
+"audience_rating": "Spilled",
+"audience_score": 42
+},
+"synopsis": "Seth MacFarlane directs, produces, co-writes and plays the role of the cowardly sheep farmer Albert in A Million Ways to Die in the West. After Albert backs out of a gunfight, his fickle girlfriend leaves him for another man. When a mysterious and beautiful woman rides into town, she helps him find his courage and they begin to fall in love. But when her husband, a notorious outlaw, arrives seeking revenge, the farmer must put his newfound courage to the test. Starring alongside MacFarlane are Oscar (R) winner Charlize Theron, Liam Neeson, Amanda Seyfried, Giovanni Ribisi, Sarah Silverman and Neil Patrick Harris. MacFarlane reunites many of the filmmakers behind Universal and MRC's hit film Ted including Scott Stuber (Bluegrass Films) and Jason Clark who produce, and Wellesley Wild and Alec Sulkin who co-wrote the script. (c)Universal",
+"posters": {
+"thumbnail": "http://content7.flixster.com/movie/11/17/78/11177885_tmb.jpg",
+"profile": "http://content7.flixster.com/movie/11/17/78/11177885_tmb.jpg",
+"detailed": "http://content7.flixster.com/movie/11/17/78/11177885_tmb.jpg",
+"original": "http://content7.flixster.com/movie/11/17/78/11177885_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Amanda Seyfried",
+"id": "364614826",
+"characters": ["Louise"]
+}, {
+"name": "Charlize Theron",
+"id": "162654733",
+"characters": ["Anna"]
+}, {
+"name": "Liam Neeson",
+"id": "162652242",
+"characters": ["Clinch"]
+}, {
+"name": "Giovanni Ribisi",
+"id": "162655082",
+"characters": ["Edward"]
+}, {
+"name": "Neil Patrick Harris",
+"id": "351527581",
+"characters": ["Foy"]
+}],
+"alternate_ids": {
+"imdb": "2557490"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350283.json",
+"alternate": "http://www.rottentomatoes.com/m/a_million_ways_to_die_in_the_west/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350283/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350283/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350283/similar.json"
+}
+}, {
+"id": "771357104",
+"title": "Chef",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 115,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-09",
+"dvd": "2014-09-30"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 88,
+"audience_rating": "Upright",
+"audience_score": 86
+},
+"synopsis": "Chef Carl Casper (Jon Favreau) suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner (Dustin Hoffman), he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife (Sofia Vergara), his friend (John Leguizamo) and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love. (c) Open Road",
+"posters": {
+"thumbnail": "http://content9.flixster.com/movie/11/18/05/11180503_tmb.jpg",
+"profile": "http://content9.flixster.com/movie/11/18/05/11180503_tmb.jpg",
+"detailed": "http://content9.flixster.com/movie/11/18/05/11180503_tmb.jpg",
+"original": "http://content9.flixster.com/movie/11/18/05/11180503_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Sofia Vergara",
+"id": "162653186",
+"characters": ["Inez"]
+}, {
+"name": "Jon Favreau",
+"id": "162655175",
+"characters": ["Carl Casper"]
+}, {
+"name": "John Leguizamo",
+"id": "162652698",
+"characters": ["Martin"]
+}, {
+"name": "Bobby Cannavale",
+"id": "162685850",
+"characters": ["Tony"]
+}, {
+"name": "Dustin Hoffman",
+"id": "162659372",
+"characters": ["Riva"]
+}],
+"alternate_ids": {
+"imdb": "2883512"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357104.json",
+"alternate": "http://www.rottentomatoes.com/m/chef_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357104/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357104/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357104/similar.json"
+}
+}, {
+"id": "771355227",
+"title": "Sex Tape",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 94,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-07-18",
+"dvd": "2014-10-21"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 18,
+"audience_rating": "Spilled",
+"audience_score": 35
+},
+"synopsis": "Jay (Jason Segel) and Annie (Cameron Diaz) are a married couple still very much in love, but ten years and two kids have cooled the passion. To get it back, they decide - why not? - to make a video of themselves trying out every position in THE JOY OF SEX in one marathon three-hour session. It seems like a great idea, until they discover that their most private video has gone public. In a panic, they begin a wild night of adventure - tracking down leads, roping in friends, duping Annie's boss - all to reclaim their video, their reputation, their sanity, and, most importantly, their marriage. (c) Sony",
+"posters": {
+"thumbnail": "http://content6.flixster.com/movie/11/18/10/11181020_tmb.jpg",
+"profile": "http://content6.flixster.com/movie/11/18/10/11181020_tmb.jpg",
+"detailed": "http://content6.flixster.com/movie/11/18/10/11181020_tmb.jpg",
+"original": "http://content6.flixster.com/movie/11/18/10/11181020_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Jason Segel",
+"id": "770670222",
+"characters": ["Jay"]
+}, {
+"name": "Cameron Diaz",
+"id": "162654443",
+"characters": ["Annie"]
+}, {
+"name": "Rob Corddry",
+"id": "312208850",
+"characters": ["Robby"]
+}, {
+"name": "Ellie Kemper",
+"id": "770842233",
+"characters": ["Tess"]
+}, {
+"name": "Rob Lowe",
+"id": "162663375",
+"characters": ["Hank"]
+}],
+"alternate_ids": {
+"imdb": "1956620"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771355227.json",
+"alternate": "http://www.rottentomatoes.com/m/sex_tape_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771355227/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771355227/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771355227/similar.json"
+}
+}, {
+"id": "771377343",
+"title": "Blended",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 91,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-23",
+"dvd": "2014-08-26"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 14,
+"audience_rating": "Upright",
+"audience_score": 65
+},
+"synopsis": "After a disastrous blind date, single parents Lauren and Jim agree on only one thing: they never want to see each other again. But when they each sign up separately for a fabulous family vacation with their kids, they are all stuck sharing a suite at a luxurious African safari resort for a week in \"Blended,\" the third comedy collaboration between stars Adam Sandler and Drew Barrymore.(c) Warner Bros",
+"posters": {
+"thumbnail": "http://content7.flixster.com/movie/11/18/01/11180137_tmb.jpg",
+"profile": "http://content7.flixster.com/movie/11/18/01/11180137_tmb.jpg",
+"detailed": "http://content7.flixster.com/movie/11/18/01/11180137_tmb.jpg",
+"original": "http://content7.flixster.com/movie/11/18/01/11180137_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Adam Sandler",
+"id": "162652550",
+"characters": ["Jim"]
+}, {
+"name": "Drew Barrymore",
+"id": "162652402",
+"characters": ["Lauren"]
+}, {
+"name": "Joel McHale",
+"id": "770792384",
+"characters": ["Mark"]
+}, {
+"name": "Kevin Nealon",
+"id": "770677783",
+"characters": ["Eddy"]
+}, {
+"name": "Wendi McLendon-Covey",
+"id": "493912297",
+"characters": ["Jen"]
+}],
+"alternate_ids": {
+"imdb": "1086772"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377343.json",
+"alternate": "http://www.rottentomatoes.com/m/blended/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377343/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377343/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377343/similar.json"
+}
+}, {
+"id": "771358910",
+"title": "Think Like a Man Too",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 106,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-20",
+"dvd": "2014-09-16"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 23,
+"audience_rating": "Upright",
+"audience_score": 62
+},
+"synopsis": "In the highly anticipated sequel, which was inspired by Steve Harvey's best-selling book Act Like a Lady, Think Like A Man, all the couples are back for a wedding in Las Vegas. But plans for a romantic weekend go awry when their various misadventures get them into some compromising situations that threaten to derail the big event. (c) Sony",
+"posters": {
+"thumbnail": "http://content6.flixster.com/movie/11/18/05/11180504_tmb.jpg",
+"profile": "http://content6.flixster.com/movie/11/18/05/11180504_tmb.jpg",
+"detailed": "http://content6.flixster.com/movie/11/18/05/11180504_tmb.jpg",
+"original": "http://content6.flixster.com/movie/11/18/05/11180504_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Adam Brody",
+"id": "162652628",
+"characters": ["Isaac"]
+}, {
+"name": "Michael Ealy",
+"id": "162713769",
+"characters": ["Dominic"]
+}, {
+"name": "Jerry Ferrara",
+"id": "364659706",
+"characters": ["Jeremy"]
+}, {
+"name": "Meagan Good",
+"id": "162654101",
+"characters": ["Mya"]
+}, {
+"name": "Regina Hall",
+"id": "162667054",
+"characters": ["Candace"]
+}],
+"alternate_ids": {
+"imdb": "2239832"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358910.json",
+"alternate": "http://www.rottentomatoes.com/m/think_like_a_man_too/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358910/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358910/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771358910/similar.json"
+}
+}, {
+"id": "771357481",
+"title": "Million Dollar Arm",
+"year": 2014,
+"mpaa_rating": "PG",
+"runtime": 124,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-16",
+"dvd": "2014-10-07"
+},
+"ratings": {
+"critics_rating": "Fresh",
+"critics_score": 61,
+"audience_rating": "Upright",
+"audience_score": 73
+},
+"synopsis": "Based on a true story, Disney's \"Million Dollar Arm\" follows JB Bernstein, a once-successful sports agent who now finds himself edged out by bigger, slicker competitors. He and his partner Aash (Aasif Mandvi) will have to close their business down for good if JB doesn't come up with something fast. Late one night, while watching cricket being played in India on TV, JB comes up with an idea so radical it just might work. Why not go to there and find the next baseball pitching sensation? Setting off for Mumbai with nothing but a gifted but cantankerous scout (Alan Arkin) in tow, JB stages a televised, nationwide competition called \"Million Dollar Arm\" where 40,000 hopefuls compete before two 18-year-old finalists, Rinku and Dinesh (Suraj Sharma, Madhur Mittal), emerge as winners. JB brings them back to the United States to train with legendary pitching coach Tom House (Bill Paxton). The goal: get the boys signed to a major league team. Not only is the game itself difficult to master, but life in the U.S. with a committed bachelor makes things even more complicated-for all of them. While Rinku and Dinesh learn the finer points of baseball and American culture, they in turn teach JB the true meaning of teamwork and commitment. Ultimately, what began as a purely commercial venture becomes something more and leads JB to find the one thing he was never looking for at all-a family. (c) Walt Disney Pictures",
+"posters": {
+"thumbnail": "http://content8.flixster.com/movie/11/17/77/11177778_tmb.jpg",
+"profile": "http://content8.flixster.com/movie/11/17/77/11177778_tmb.jpg",
+"detailed": "http://content8.flixster.com/movie/11/17/77/11177778_tmb.jpg",
+"original": "http://content8.flixster.com/movie/11/17/77/11177778_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Jon Hamm",
+"id": "770696952",
+"characters": ["JB Bernstein"]
+}, {
+"name": "Aasif Mandvi",
+"id": "364605673",
+"characters": ["Aash"]
+}, {
+"name": "Madhur Mittal",
+"id": "770826138",
+"characters": ["Dinesh"]
+}, {
+"name": "Bill Paxton",
+"id": "162654226",
+"characters": ["Tom House"]
+}, {
+"name": "Suraj Sharma",
+"id": "771086290",
+"characters": ["Rinku"]
+}],
+"alternate_ids": {
+"imdb": "1647668"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357481.json",
+"alternate": "http://www.rottentomatoes.com/m/million_dollar_arm/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357481/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357481/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771357481/similar.json"
+}
+}, {
+"id": "771339986",
+"title": "Snowpiercer",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 126,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-27",
+"dvd": "2014-10-21"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 95,
+"audience_rating": "Upright",
+"audience_score": 76
+},
+"synopsis": "In this sci-fi epic from director Bong Joon Ho (The Host, Mother), a failed global-warming experiment kills off most life on the planet. The final survivors board the SNOWPIERCER, a train that travels around the globe via a perpetual-motion engine. When cryptic messages incite the passengers to revolt, the train thrusts full-throttle towards disaster. (c) TWC-Radius",
+"posters": {
+"thumbnail": "http://content8.flixster.com/movie/11/17/86/11178618_tmb.jpg",
+"profile": "http://content8.flixster.com/movie/11/17/86/11178618_tmb.jpg",
+"detailed": "http://content8.flixster.com/movie/11/17/86/11178618_tmb.jpg",
+"original": "http://content8.flixster.com/movie/11/17/86/11178618_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Chris Evans",
+"id": "162652784",
+"characters": ["Curtis"]
+}, {
+"name": "Song Kang-ho",
+"id": "162653439",
+"characters": ["Namgoong Minsu"]
+}, {
+"name": "Jamie Bell",
+"id": "162653082",
+"characters": ["Edgar"]
+}, {
+"name": "John Hurt",
+"id": "162653221",
+"characters": ["Gilliam"]
+}, {
+"name": "Tilda Swinton",
+"id": "162654047",
+"characters": ["Mason"]
+}],
+"alternate_ids": {
+"imdb": "1706620"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771339986.json",
+"alternate": "http://www.rottentomatoes.com/m/snowpiercer/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771339986/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771339986/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771339986/similar.json"
+}
+}, {
+"id": "771356653",
+"title": "Earth to Echo",
+"year": 2014,
+"mpaa_rating": "PG",
+"runtime": 89,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-07-02",
+"dvd": "2014-10-21"
+},
+"ratings": {
+"critics_rating": "Rotten",
+"critics_score": 48,
+"audience_rating": "Spilled",
+"audience_score": 50
+},
+"synopsis": "In Relativity's PG summer family adventure movie, Tuck, Munch and Alex are a trio of inseparable friends whose lives are about to change. Their neighborhood is being destroyed by a highway construction project that is forcing their families to move away. But just two days before they must part ways, the boys begin receiving a strange series of signals on their phones. Convinced something bigger is going on, they team up with another school friend, Emma, and set out to look for the source of their phone signals. What they discover is something beyond their wildest imaginations: a small alien who has become stranded on Earth. In need of their help, the four friends come together to protect the alien and help him find his way home. This journey, full of wonder and adventure, is their story, and their secret. (c) Relativity",
+"posters": {
+"thumbnail": "http://content6.flixster.com/movie/11/17/80/11178084_tmb.jpg",
+"profile": "http://content6.flixster.com/movie/11/17/80/11178084_tmb.jpg",
+"detailed": "http://content6.flixster.com/movie/11/17/80/11178084_tmb.jpg",
+"original": "http://content6.flixster.com/movie/11/17/80/11178084_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Teo Halm",
+"id": "771452922",
+"characters": ["Alex"]
+}, {
+"name": "Astro",
+"id": "770769927",
+"characters": ["Tuck"]
+}, {
+"name": "Ella Wahlestedt",
+"id": "771452924",
+"characters": ["Emma"]
+}, {
+"name": "Ella Linnea Wahlestedt",
+"id": "771483962",
+"characters": ["Emma"]
+}, {
+"name": "Reese C. Hartwig",
+"id": "771452923",
+"characters": ["Munch"]
+}],
+"alternate_ids": {
+"imdb": "2183034"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356653.json",
+"alternate": "http://www.rottentomatoes.com/m/earth_to_echo/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356653/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356653/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356653/similar.json"
+}
+}, {
+"id": "771362035",
+"title": "Begin Again",
+"year": 2014,
+"mpaa_rating": "R",
+"runtime": 101,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-06-27",
+"dvd": "2014-10-28"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 82,
+"audience_rating": "Upright",
+"audience_score": 84
+},
+"synopsis": "The latest film from writer-director John Carney (ONCE), BEGIN AGAIN is a soul-stirring comedy about what happens when lost souls meet and make beautiful music together. Gretta (Keira Knightley) and her long-time boyfriend Dave (Adam Levine) are college sweethearts and songwriting partners who decamp for New York when he lands a deal with a major label. But the trappings of his new-found fame soon tempt Dave to stray, and a reeling, lovelorn Gretta is left on her own. Her world takes a turn for the better when Dan (Mark Ruffalo), a disgraced record-label exec, stumbles upon her performing on an East Village stage and is immediately captivated by her raw talent. From this chance encounter emerges an enchanting portrait of a mutually transformative collaboration, set to the soundtrack of a summer in New York City. BEGIN AGAIN is produced and financed by Exclusive Media and produced by Anthony Bregman, Tobin Armbrust and Judd Apatow. (C) Weinstein",
+"posters": {
+"thumbnail": "http://content9.flixster.com/movie/11/18/08/11180891_tmb.jpg",
+"profile": "http://content9.flixster.com/movie/11/18/08/11180891_tmb.jpg",
+"detailed": "http://content9.flixster.com/movie/11/18/08/11180891_tmb.jpg",
+"original": "http://content9.flixster.com/movie/11/18/08/11180891_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Keira Knightley",
+"id": "162654560",
+"characters": ["Gretta"]
+}, {
+"name": "Mark Ruffalo",
+"id": "162653904",
+"characters": ["Dan"]
+}, {
+"name": "Adam Levine",
+"id": "771263127",
+"characters": ["Dave"]
+}, {
+"name": "Hailee Steinfeld",
+"id": "771070631",
+"characters": ["Violet"]
+}, {
+"name": "Catherine Keener",
+"id": "162652281",
+"characters": ["Miriam"]
+}],
+"alternate_ids": {
+"imdb": "1980929"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771362035.json",
+"alternate": "http://www.rottentomatoes.com/m/begin_again_2013/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771362035/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771362035/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771362035/similar.json"
+}
+}, {
+"id": "771356814",
+"title": "Draft Day",
+"year": 2014,
+"mpaa_rating": "PG-13",
+"runtime": 109,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-04-11",
+"dvd": "2014-09-02"
+},
+"ratings": {
+"critics_rating": "Fresh",
+"critics_score": 60,
+"audience_rating": "Upright",
+"audience_score": 67
+},
+"synopsis": "On the day of the NFL Draft, general manager Sonny Weaver (Costner) has the opportunity to save football in Cleveland when he trades for the number one pick. He must quickly decide what he's willing to sacrifice in pursuit of perfection as the lines between his personal and professional life become blurred on a life-changing day for a few hundred young men with dreams of playing in the NFL. (c) Lionsgate",
+"posters": {
+"thumbnail": "http://content7.flixster.com/movie/11/18/00/11180033_tmb.jpg",
+"profile": "http://content7.flixster.com/movie/11/18/00/11180033_tmb.jpg",
+"detailed": "http://content7.flixster.com/movie/11/18/00/11180033_tmb.jpg",
+"original": "http://content7.flixster.com/movie/11/18/00/11180033_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Kevin Costner",
+"id": "162662350",
+"characters": ["Sonny Weaver", "Jr."]
+}, {
+"name": "Jennifer Garner",
+"id": "162660749",
+"characters": ["Ali"]
+}, {
+"name": "Denis Leary",
+"id": "162659182",
+"characters": ["Coach Penn"]
+}, {
+"name": "Ellen Burstyn",
+"id": "162660525",
+"characters": ["Barb Weaver"]
+}, {
+"name": "Frank Langella",
+"id": "162664308",
+"characters": ["Anthony Molina"]
+}],
+"alternate_ids": {
+"imdb": "2223990"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356814.json",
+"alternate": "http://www.rottentomatoes.com/m/draft_day/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356814/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356814/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771356814/similar.json"
+}
+}, {
+"id": "771361103",
+"title": "Belle",
+"year": 2014,
+"mpaa_rating": "PG",
+"runtime": 102,
+"critics_consensus": "",
+"release_dates": {
+"theater": "2014-05-02",
+"dvd": "2014-08-26"
+},
+"ratings": {
+"critics_rating": "Certified Fresh",
+"critics_score": 83,
+"audience_rating": "Upright",
+"audience_score": 85
+},
+"synopsis": "BELLE is inspired by the true story of Dido Elizabeth Belle (Gugu Mbatha-Raw), the illegitimate mixed race daughter of Admiral Sir John Lindsay (Matthew Goode). Raised by her aristocratic great-uncle Lord Mansfield (Tom Wilkinson) and his wife (Emily Watson), Belle's lineage affords her certain privileges, yet her status prevents her from the traditions of noble social standing. While her cousin Elizabeth (Sarah Gadon) chases suitors for marriage, Belle is left on the sidelines wondering if she will ever find love. After meeting an idealistic young vicar's son bent on changing society, he and Belle help shape Lord Mansfield's role as Lord Chief Justice to end slavery in England. (c) Fox Searchlight",
+"posters": {
+"thumbnail": "http://content9.flixster.com/movie/11/18/00/11180087_tmb.jpg",
+"profile": "http://content9.flixster.com/movie/11/18/00/11180087_tmb.jpg",
+"detailed": "http://content9.flixster.com/movie/11/18/00/11180087_tmb.jpg",
+"original": "http://content9.flixster.com/movie/11/18/00/11180087_tmb.jpg"
+},
+"abridged_cast": [{
+"name": "Gugu Mbatha-Raw",
+"id": "770789779",
+"characters": ["Dido Elizabeth Belle"]
+}, {
+"name": "Tom Wilkinson",
+"id": "162653769",
+"characters": ["Lord Mansfield"]
+}, {
+"name": "Emily Watson",
+"id": "162654016",
+"characters": ["Lady Mansfield"]
+}, {
+"name": "Matthew Goode",
+"id": "162669627",
+"characters": ["Admiral Sir John Lindsay"]
+}, {
+"name": "Sarah Gadon",
+"id": "241691073",
+"characters": ["Elizabeth Murray"]
+}],
+"alternate_ids": {
+"imdb": "2404181"
+},
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771361103.json",
+"alternate": "http://www.rottentomatoes.com/m/belle_2014/",
+"cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771361103/cast.json",
+"reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771361103/reviews.json",
+"similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771361103/similar.json"
+}
+}],
+"links": {
+"self": "http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?limit=20&country=us",
+"alternate": "http://www.rottentomatoes.com/dvd/top_rentals"
+},
+"link_template": "http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/top_rentals.json?limit={num-results}&country={country-code}"
+}
